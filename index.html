@@ -1,12 +1,28 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>2048 Game</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/script.ts"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/src/style.css" />
+  <script src="/src/script.ts" type="module"></script>
+  <title>2048 Game</title>
+  <meta name="description" content="2048 Game" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="/icon512_maskable.png">
+  <link rel="icon" type="image/x-icon" href="/src/images/favicon.png">
+</head>
+<body>
+<div id="game">
+  <div id="game-header">
+    <h1 id="game-title">2048</h1>
+    <div id="game-score">score</div>
+    <div id="game-subtitle">Join the numbers and get to the 2048 tile!</div>
+    <button id="game-restart">Restart</button>
+  </div>
+  <div id="game-board">
+  </div>
+</div>
+
+</body>
 </html>
